@@ -32,6 +32,11 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 500px) {
+  .marginPC {
+    margin: 0 5px;
+  }
+}
 
 @media screen and (max-width: 303px) {
   .fold {

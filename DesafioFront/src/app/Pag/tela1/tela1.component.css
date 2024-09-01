@@ -41,6 +41,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .contain {
+    margin-top: 10%;
+    height: 100%;
+  }
+  
   .conteudo {
     max-height: 15.8rem;
     width: 100%;
