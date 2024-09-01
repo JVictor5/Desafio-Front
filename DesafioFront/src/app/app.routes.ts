@@ -25,6 +25,12 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./Pag/tela3/tela3.component').then((b) => b.Tela3Component),
       },
+      {
+        path: 'tela4',
+        title: 'Tela4',
+        loadComponent: () =>
+          import('./Pag/tela4/tela4.component').then((e) => e.Tela4Component),
+      },
     ],
   },
 ];
